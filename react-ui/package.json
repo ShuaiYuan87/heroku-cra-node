@@ -1,19 +1,25 @@
 {
-  "name": "react-ui",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "react-scripts": "^1.1.4"
-  },
   "dependencies": {
+    "prop-types": "^15.6.2",
+    "query-string": "^6.1.0",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+    "react-modal": "^3.5.1",
+    "react-motion": "^0.5.2",
+    "react-player": "^1.6.4",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-style": "^0.5.5",
+    "socket.io": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "proxy": "http://localhost:5000"
+  }
 }
